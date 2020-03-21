@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component Matches the snapshot 1`] = `
+<div
+  className="App"
+>
+  <h1
+    className="App-title"
+  >
+    Modern Roman Numeral Converter
+  </h1>
+  <div
+    className="App-container"
+  >
+    <h2>
+      Arabic style
+    </h2>
+    <input
+      onChange={[Function]}
+      type="number"
+      value={0}
+    />
+    <p
+      className="text-error"
+    >
+      The number must be between 1 and 3999
+    </p>
+  </div>
+  <div
+    className="App-container"
+  >
+    <h2>
+      Roman Style
+    </h2>
+    <input
+      onChange={[Function]}
+      value=""
+    />
+  </div>
+</div>
+`;
